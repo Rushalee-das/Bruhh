@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+		body{
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+		}
+		img{
+			background-size: cover;
+			top: -50px;
+			position: absolute;
+			width: 1250px;
+			overflow-x: hidden;
+			overflow-y: hidden;
+		}
+        .container {
+			top: 0;
+            display: inline-block;
+			position: absolute;
+			margin-top: 0;
+			overflow: hidden;
+        }
+
+        .text {
+			opacity: 0;
+            font-size: 20px;
+			color: white;
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+			animation-delay: 3s;
+        }
+
+        .text1 {
+            opacity: 0;
+            font-size: 20px;
+			color: #ffff;
+			/* display: none; */
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 6s;
+        }
+
+        /* Add more text styles as needed */
+        .text2 {
+            opacity: 0;
+            font-size: 20px;
+			/* display: none; */
+			color: #fff;
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 9s;
+        }
+
+        .text3 {
+            opacity: 0;
+            font-size: 20px;
+			color: #fff;
+            letter-spacing: 10px;
+			/* display: none; */
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 12s;
+        }
+
+		.text4 {
+            opacity: 0;
+            font-size: 20px;
+			color: #fff;
+			/* display: none; */
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 15s;
+        }
+
+		.text5 {
+            opacity: 0;
+            font-size: 20px;
+			color: #fff;
+			/* display: none; */
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 18s;
+        }
+
+
+		.text6 {
+            opacity: 0;
+            font-size: 20px;
+			/* display: none; */
+			color: #fff;
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 21s;
+        }
+
+		.text7 {
+            opacity: 0;
+            font-size: 20px;
+			/* display: none; */
+			color: #fff;
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 24s;
+        }
+		.text8 {
+            opacity: 0;
+            font-size: 20px;
+			/* display: none; */
+			color: #fff;
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 27s;
+        }
+		.text9 {
+            opacity: 0;
+            font-size: 20px;
+			color: #fff;
+			/* display: none; */
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 30s;
+        }
+
+		.text10 {
+            opacity: 0;
+			/* display: none; */
+            font-size: 20px;
+			color: #fff;
+            letter-spacing: 10px;
+            border-right: 5px solid;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+			filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 20px #fff);
+            animation-delay: 33s;
+        }
+
+
+
+        /* Add more text styles as needed */
+        /* .text4 { ... } */
+        /* .text5 { ... } */
+
+        @keyframes cursor {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+	<div class="box">
+		<img src="img/bg.jfif" alt="">
+		<div class="container">
+			<p class="text">First of all Happiest Birthday to you.</p>
+			<p class="text1">I know it's not much but I tried and I promise,</p>
+			<p class="text2">The next time will be awesome.</p>
+			<p class="text3">I tried to make it fun and enjoyable to you.</p>
+			<p class="text4">You have been studying a lot and ,</p>
+			<p class="text5">You know , I like kinda wanted to cheer you up a bit.</p>
+			<p class="text6">I know you have an exam so ...</p>
+			<p class="text7">I won't spoil your time, Enjoy your day,</p>
+			<p class="text8">p.s. I Love You...</p>
+			<p class="text9">Rush</p>
+			<p class="text10">call me when you finish this...</p>
+			<!-- Add more paragraphs with the class "textX" as needed -->
+			<!-- <p class="text3">Fourth line of text.</p> -->
+			<!-- <p class="text4">Fifth line of text.</p> -->
+			<!-- <p class="text5">Sixth line of text.</p> -->
+		</div>
+	</div>
+    
+    <script>
+        // Set opacity to 1 after the animation starts for each line
+		setTimeout(() => {
+            document.querySelector('.text').style.opacity = '1';
+        }, 3000);
+
+        setTimeout(() => {
+            document.querySelector('.text1').style.opacity = '1';
+            document.querySelector('.text').style.borderRight = '0';
+        }, 6000);
+
+        setTimeout(() => {
+            document.querySelector('.text2').style.opacity = '1';
+            document.querySelector('.text1').style.borderRight = '0';
+        }, 9000);
+		setTimeout(() => {
+            document.querySelector('.text3').style.opacity = '1';
+            document.querySelector('.text2').style.borderRight = '0';
+        }, 12000);
+		setTimeout(() => {
+            document.querySelector('.text4').style.opacity = '1';
+            document.querySelector('.text3').style.borderRight = '0';
+        }, 15000);
+		setTimeout(() => {
+            document.querySelector('.text5').style.opacity = '1';
+            document.querySelector('.text4').style.borderRight = '0';
+        }, 18000);
+		setTimeout(() => {
+            document.querySelector('.text6').style.opacity = '1';
+            document.querySelector('.text5').style.borderRight = '0';
+        }, 21000);
+		setTimeout(() => {
+            document.querySelector('.text7').style.opacity = '1';
+            document.querySelector('.text6').style.borderRight = '0';
+        }, 24000);
+		setTimeout(() => {
+            document.querySelector('.text8').style.opacity = '1';
+            document.querySelector('.text7').style.borderRight = '0';
+        }, 27000);
+		setTimeout(() => {
+            document.querySelector('.text9').style.opacity = '1';
+            document.querySelector('.text8').style.borderRight = '0';
+        }, 30000);
+		setTimeout(() => {
+            document.querySelector('.text10').style.opacity = '1';
+            document.querySelector('.text9').style.borderRight = '0';
+        }, 33000);
+    </script>
+</body>
+</html>
